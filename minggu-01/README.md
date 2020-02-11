@@ -1,3 +1,3 @@
 # My Awesome Project
 
-Ini isi Proyek. BANG BANG BANG
+Ini isi Proyek. BANG BANG BANG - Loser
