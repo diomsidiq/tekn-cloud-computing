@@ -1,3 +1,3 @@
 # My Awesome Project
 
-Ini isi Proyek
+Ini isi Proyek. BANG BANG BANG
