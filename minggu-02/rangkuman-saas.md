@@ -18,7 +18,7 @@ SaaS is a common delivery model for many business applications, including office
 
 The SaaS provider hosts the application and data centrally — deploying patches . They upgrade to the application transparently, delivering access to end users over the Internet. Many vendors provide API’s that developers use for creating composite applications. It contains various security mechanisms for Data security during transmission and storage.
 
-<a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png"<img src="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png" alt="01" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png"><img src="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png" alt="01" style="max-width:100%;"></a>
 
 <h3> SAAS Architecture: </h3>
 With this model, a single version of the application, with a single configuration is used for all customers. The application is installed on multiple machines to support scalability (called horizontal scaling). In some cases, a second version of the application is set up to offer a select group of customers with access to pre-release versions of the applications for testing purposes. 
