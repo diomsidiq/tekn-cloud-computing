@@ -14,7 +14,11 @@
 <h2>SAAS (Software as a Service) Platform Architecture</h2>
 SaaS is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. Users can access it with the help of web browsers.
 
-<a href="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png" rel="nofollow"></a>
+SaaS is a common delivery model for many business applications, including office and messaging software, management software,virtualization etc. It is part of the nomenclature of cloud computing, along with infrastructure as a service(IaaS), platform as a service(PaaS), desktop as a service(DaaS).
+
+The SaaS provider hosts the application and data centrally — deploying patches . They upgrade to the application transparently, delivering access to end users over the Internet. Many vendors provide API’s that developers use for creating composite applications. It contains various security mechanisms for Data security during transmission and storage.
+
+<a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png"<img src="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png" alt="01" style="max-width:100%;"></a>
 
 <h3> SAAS Architecture: </h3>
 With this model, a single version of the application, with a single configuration is used for all customers. The application is installed on multiple machines to support scalability (called horizontal scaling). In some cases, a second version of the application is set up to offer a select group of customers with access to pre-release versions of the applications for testing purposes. 
@@ -23,7 +27,10 @@ With this model, a single version of the application, with a single configuratio
 As a mentioned in the introduction, the software has been distributed to customers in a variety of channels over the last few decades.  The more recent distribution channel in Software as a Service (or SaaS).
 
 <b>Consumers</b>
-<pre><code>From a consumer’s perspective, SaaS products are one of the easiest ways to use digital services or products. You simply access them over the web, pay for the service and use them! In recent years we’ve seen the emergence of thousands of SaaS products targeted at consumers such as:
+
+<pre><code>From a consumer’s perspective, SaaS products are one of the easiest ways to use digital services or products.
+You simply access them over the web, pay for the service and use them!
+In recent years we’ve seen the emergence of thousands of SaaS products targeted at consumers such as:
 <ul>
 <li> Netflix </li>
 <li> Google Docs </li>
