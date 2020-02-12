@@ -1,44 +1,48 @@
 # Software as a Service ( SaaS )
 
-<h2>What is the difference between IaaS, SaaS, and Paas?</h2>
+<h2>Apa perbedaan antara IaaS, SaaS, dan Paas?</h2>
 
 <ul>
 <li>IaaS (Infrastructure as a service)</li>
-    Hardware, software and your application code has to be managed. You select the servers to activate (either physical or virtual), install the OS and software stack, then finally deploy your applications. Some providers offer very low-level controls so that you can build your own data center in the cloud.
+    Perangkat keras, perangkat lunak, dan kode aplikasi Anda harus dikelola. Anda memilih server untuk diaktifkan (baik fisik atau virtual), menginstal OS dan tumpukan perangkat lunak, lalu akhirnya menyebarkan aplikasi Anda. Beberapa penyedia menawarkan kontrol tingkat sangat rendah sehingga Anda dapat membangun pusat data Anda sendiri di cloud.
 <li>PaaS (Platform as a service)</li>
-    This type of service abstracts away all of the hardware decisions. Only the software stack and your application code has to be managed. Select the appropriate provider depending on the software stack you want then deploy your applications. The actual servers, network and storage are all taken care of automatically by the platform.
+    Jenis layanan ini memisahkan semua keputusan perangkat keras. Hanya tumpukan perangkat lunak dan kode aplikasi Anda yang harus dikelola. Pilih penyedia yang sesuai tergantung pada tumpukan perangkat lunak yang Anda inginkan kemudian gunakan aplikasi Anda. Server, jaringan, dan penyimpanan yang sebenarnya semuanya diurus secara otomatis oleh platform.
 <li>SaaS (Software as a service)</li>
-    This is the highest abstraction level and means you are just using a web application and never see the hardware and software stack that makes it run. You enter your own data into the application provided however some of the bigger applications allow for building custom apps on top (e.g. Facebook).
+    Ini adalah level abstraksi tertinggi dan berarti Anda hanya menggunakan aplikasi web dan tidak pernah melihat tumpukan perangkat keras dan lunak yang membuatnya berjalan. Anda memasukkan data Anda sendiri ke dalam aplikasi yang disediakan namun beberapa aplikasi yang lebih besar memungkinkan untuk membangun aplikasi khusus di atas (mis. Facebook).
 </ul>
 
 <h2>SAAS (Software as a Service) Platform Architecture</h2>
-SaaS is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. Users can access it with the help of web browsers.
+SaaS adalah model lisensi dan pengiriman perangkat lunak di mana perangkat lunak dilisensikan berdasarkan berlangganan dan di-host secara terpusat. Pengguna dapat mengaksesnya dengan bantuan browser web. SaaS adalah model pengiriman umum untuk banyak aplikasi bisnis, termasuk perangkat lunak perkantoran dan pesan, perangkat lunak manajemen, virtualisasi dll. Ini adalah bagian dari nomenklatur komputasi awan, bersama dengan infrastruktur sebagai layanan (IaaS), platform sebagai layanan (PaaS) , desktop sebagai layanan (DaaS).
 
-SaaS is a common delivery model for many business applications, including office and messaging software, management software,virtualization etc. It is part of the nomenclature of cloud computing, along with infrastructure as a service(IaaS), platform as a service(PaaS), desktop as a service(DaaS).
-
-The SaaS provider hosts the application and data centrally — deploying patches . They upgrade to the application transparently, delivering access to end users over the Internet. Many vendors provide API’s that developers use for creating composite applications. It contains various security mechanisms for Data security during transmission and storage.
+Penyedia SaaS menyimpan aplikasi dan data secara terpusat - tambalan penyebaran. Mereka meningkatkan ke aplikasi secara transparan, memberikan akses ke pengguna akhir melalui Internet. Banyak vendor menyediakan API yang digunakan pengembang untuk membuat aplikasi komposit. Ini berisi berbagai mekanisme keamanan untuk keamanan data selama transmisi dan penyimpanan.
 
 <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png"><img src="https://hackernoon.com/hn-images/0*OXKaGxOoKz6NUURX.png" alt="01" style="max-width:100%;"></a>
 
 <h3> SAAS Architecture: </h3>
-With this model, a single version of the application, with a single configuration is used for all customers. The application is installed on multiple machines to support scalability (called horizontal scaling). In some cases, a second version of the application is set up to offer a select group of customers with access to pre-release versions of the applications for testing purposes. 
+Dengan model ini, satu versi aplikasi, dengan satu konfigurasi digunakan untuk semua pelanggan. Aplikasi ini diinstal pada banyak mesin untuk mendukung skalabilitas (disebut penskalaan horizontal). Dalam beberapa kasus, versi kedua aplikasi diatur untuk menawarkan kelompok pelanggan tertentu dengan akses ke versi pra-rilis aplikasi untuk tujuan pengujian. 
 
-<h2>Why Use a SaaS Architecture?</h2>
-As a mentioned in the introduction, the software has been distributed to customers in a variety of channels over the last few decades.  The more recent distribution channel in Software as a Service (or SaaS).
+<h2>Mengapa Menggunakan Arsitektur SaaS?</h2>
+Seperti yang disebutkan dalam pendahuluan, perangkat lunak telah didistribusikan kepada pelanggan dalam berbagai saluran selama beberapa dekade terakhir. Saluran distribusi yang lebih baru dalam Perangkat Lunak sebagai Layanan (atau SaaS).
 
-<b>Consumers</b>
 
-<pre><code>From a consumer’s perspective, SaaS products are one of the easiest ways to use digital services or products.
-You simply access them over the web, pay for the service and use them!
-In recent years we’ve seen the emergence of thousands of SaaS products targeted at consumers such as:
+<b>Konsumen</b>
+
+<pre><code>
+Dari perspektif konsumen, produk SaaS adalah salah satu cara termudah untuk menggunakan layanan atau produk digital.
+Anda cukup mengaksesnya melalui web, membayar layanan dan menggunakannya!
+Dalam beberapa tahun terakhir kami telah melihat kemunculan ribuan produk SaaS yang ditargetkan untuk konsumen seperti:
 <ul>
 <li> Netflix </li>
 <li> Google Docs </li>
-<li> ... and many more!</li>
+<li> ... dan lainya!</li>
 </ul>
 </pre></code>
 
-<h2>How to build a cloud-based SaaS Application</h2>
-When building a (global) SaaS application chances are high that you’re building it in the cloud. The cloud has a lot of advantages – think of scalability – in contrast to local server environments.
+<h2>Cara membangun Aplikasi SaaS berbasis cloud</h2>
+Saat membangun aplikasi SaaS (global), ada kemungkinan besar bahwa Anda membangunnya di cloud. Cloud memiliki banyak keunggulan - pikirkan skalabilitas - berbeda dengan lingkungan server lokal. Karena itu pos ini, dan yang akan mengikuti fokus pada perangkat lunak yang dibangun dan direkayasa di cloud.
 
-Therefore this post, and the ones which will follow focus on software which is built and engineered in the cloud. 
+Membangun produk untuk cloud berarti membangun produk dengan bahasa pemrograman modern.
+
+Selain kemampuan dan keterampilan pribadi, pilihan bahasa pemrograman Anda akan dipengaruhi oleh kemungkinan masing-masing bahasa. Ada berbagai bahasa pemrograman (modern) di luar sana sehingga sulit untuk memilih yang benar.
+
+Lihatlah yang paling menonjol (kami mengumpulkan bahasa pemrograman paling penting di 2017 di sini), bermain-main dengan itu dan mencoba bereksperimen sebanyak mungkin.
