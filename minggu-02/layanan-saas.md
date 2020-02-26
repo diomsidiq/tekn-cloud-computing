@@ -4,4 +4,4 @@
 <h2>Overview Layanan Microsoft Visio : </h2>
 
 	<b>Microsoft Visio</b> adalah sebuah program aplikasi komputer yang sering digunakan untuk membuat diagram, diagram alir, brainstorm, dan skema jaringan yang dirilis oleh Microsoft Corporation.
-	<pre><i>Microsoft Visio ini termasuk kedalam layanan SaaS (Software as a Service) karena memungkinkan pengguna untuk membuat diagram profesional secara cepat.</i></pre>
+	<i>Microsoft Visio ini termasuk kedalam layanan SaaS (Software as a Service) karena memungkinkan pengguna untuk membuat diagram profesional secara cepat.</i>
