@@ -7,6 +7,6 @@
 
 <h2>Overview Layanan Dia : </h2>
 <i><b>DIA</b></i> adalah sebuah software yang bersifat free dan open source yang berfungsi untuk membantu pembuatan dan perencanaan diagram agar lebih terstruktur. 
-<img src="images/un.png"></img>
+<p><a target="_blank" href="/diomsidiq/tekn-cloud-computing/minggu-02/images/un.png"><img src="/diomsidiq/tekn-cloud-computing/minggu-02/images/un.png" alt="png" style="max-width:100%;"></a></p>
 
 <i><b>DIA</b></i> ini termasuk kedalam layanan SaaS (<i><b>Software as a Service</b></i>) dikarenakan pada Microsoft Visio ini pengguna hanya perlu menggunakan aplikasi tersebut tanpa harus mengerti dan mengurus bagaimana data disimpan atau bagaimana aplikasi tersebut di maintenance
